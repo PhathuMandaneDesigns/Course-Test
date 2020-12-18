@@ -21,6 +21,7 @@
 		h4{position: absolute;
 			color: black;}
 		ul{align-items: center;}
+		li{border-top solid red}
 		.navbar-collapse{flex-basis: 100%;
 						 flex-grow: 1;
 						 align-items: center;}
