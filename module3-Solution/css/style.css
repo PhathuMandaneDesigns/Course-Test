@@ -16,7 +16,8 @@
 			width: 100%;
 
 		}
-		hr{width: 80%;}
+		hr{background-color: red;
+			width: 100%;}
 		h4{position: absolute;
 			color: black;}
 		ul{align-items: center;}
@@ -70,7 +71,7 @@
 	/*MEDIA QUERIES*/
 	@media (max-width: 767px){
 		/*Mobile*/
-	    .col-xs-6{
+	    .col-xs-12{
 	    	width: 100%;
 	    	padding: 10%;
 	    }
@@ -81,6 +82,7 @@
 		.col-sm-12{
 		    width:100%;
 		}
+		.navbar-nav{display: none}
 
 	}
 	@media (min-width: 992px){
@@ -92,6 +94,7 @@
 	        margin-right: 50px;
 	        box-sizing: 200px;
 	       
-	      }   
+	      } 
+	      .navbar-nav{display: none}  
 	}
 
